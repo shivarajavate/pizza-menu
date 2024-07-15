@@ -1,4 +1,4 @@
-const pizzaData = [
+const pizzasList = [
   {
     name: "Focaccia",
     ingredients: "Bread with italian olive oil and rosemary",
@@ -11,7 +11,7 @@ const pizzaData = [
     ingredients: "Tomato and mozarella",
     price: 10,
     photoName: "pizzas/margherita.jpg",
-    soldOut: false,
+    soldOut: true,
   },
   {
     name: "Pizza Spinaci",
@@ -42,3 +42,5 @@ const pizzaData = [
     soldOut: false,
   },
 ];
+
+export default pizzasList;
